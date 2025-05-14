@@ -1,0 +1,8 @@
+@if(!address()){<button (click)="connect()">Connect</button>
+} @else{
+  <button (click)="disconnect()">Disconnect</button>
+}
+<span>Connected: {{address()}}</span>
+
+  <button (click)="sendTransaction()">Send transaction</button>
+

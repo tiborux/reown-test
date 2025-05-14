@@ -10,6 +10,7 @@
   },
   "private": true,
   "dependencies": {
+    "@angular-architects/ngrx-toolkit": "^19.1.0",
     "@angular/common": "^19.2.0",
     "@angular/compiler": "^19.2.0",
     "@angular/core": "^19.2.0",
@@ -17,8 +18,20 @@
     "@angular/platform-browser": "^19.2.0",
     "@angular/platform-browser-dynamic": "^19.2.0",
     "@angular/router": "^19.2.0",
+    "@ngrx/signals": "^19.2.0",
+    "@reown/appkit": "^1.7.4",
+    "@reown/appkit-adapter-solana": "^1.7.4",
+    "@reown/appkit-adapter-wagmi": "^1.7.4",
+    "@solana/wallet-adapter-base": "0.9.26",
+    "@solana/wallet-adapter-phantom": "^0.9.27",
+    "@solana/wallet-adapter-solflare": "^0.6.31",
+    "@solana/wallet-adapter-wallets": "0.19.36",
+    "@solana/web3.js": "1.98.0",
     "rxjs": "~7.8.0",
+    "safe-stringify": "1.1.1",
     "tslib": "^2.3.0",
+    "viem": "^2.29.2",
+    "wagmi": "^2.15.2",
     "zone.js": "~0.15.0"
   },
   "devDependencies": {
